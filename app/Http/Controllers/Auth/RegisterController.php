@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Gwentable\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use Gwentable\User;
+use Gwentable\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

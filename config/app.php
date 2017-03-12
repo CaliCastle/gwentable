@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Gwentable\Providers\AppServiceProvider::class,
+        Gwentable\Providers\AuthServiceProvider::class,
+        // Gwentable\Providers\BroadcastServiceProvider::class,
+        Gwentable\Providers\EventServiceProvider::class,
+        Gwentable\Providers\RouteServiceProvider::class,
 
     ],
 
