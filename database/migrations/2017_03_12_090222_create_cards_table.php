@@ -31,7 +31,7 @@ class CreateCardsTable extends Migration
             $table->text('extra');
 
             // 外键约束
-            $table->foreign('art_id')->reference('id')->on('files');
+            $table->foreign('art_id')->references('id')->on('files');
         });
 
         // 卡牌属性 表
